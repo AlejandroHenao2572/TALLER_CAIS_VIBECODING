@@ -1,7 +1,7 @@
 import Link from "next/link";
-import type { Mascota } from "@/lib/types";
+import type { MascotaDetalle } from "@/lib/types";
 
-export default function MascotaCard({ mascota }: { mascota: Mascota }) {
+export default function MascotaCard({ mascota }: { mascota: MascotaDetalle }) {
   return (
     <Link
       href={`/mascotas/${mascota.id}`}
@@ -12,7 +12,7 @@ export default function MascotaCard({ mascota }: { mascota: Mascota }) {
         {mascota.especie} · {mascota.raza} · {mascota.edad} {mascota.edad === 1 ? "año" : "años"}
       </p>
       <p className="mt-2 text-sm">
-        Dueño: <span className="font-medium">{mascota.dueno}</span> · {mascota.telefono}
+        Responsables: <span className="font-medium">{mascota.responsables.map((r) => `${r.nombre} · ${r.telefono}`).join("; ")}</span>
       </p>
     </Link>
   );

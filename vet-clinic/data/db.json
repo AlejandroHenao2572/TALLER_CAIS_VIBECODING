@@ -6,8 +6,9 @@
       "especie": "Perro",
       "raza": "Labrador",
       "edad": 5,
-      "dueno": "Carlos Gómez",
-      "telefono": "3001234567"
+      "responsableIds": [
+        "53c9bcdc-73e6-4475-b6a9-f765d4be859e"
+      ]
     },
     {
       "id": "m2",
@@ -15,8 +16,9 @@
       "especie": "Gato",
       "raza": "Siamés",
       "edad": 3,
-      "dueno": "Laura Martínez",
-      "telefono": "3109876543"
+      "responsableIds": [
+        "802a34a5-f546-4942-b1ac-9dc990b57a50"
+      ]
     },
     {
       "id": "m3",
@@ -24,8 +26,9 @@
       "especie": "Conejo",
       "raza": "Belier",
       "edad": 2,
-      "dueno": "Andrés Rojas",
-      "telefono": "3205551234"
+      "responsableIds": [
+        "177240ab-2ed6-4b9c-8ed9-60bb4a8fd592"
+      ]
     },
     {
       "id": "c20bc4b5-8792-40d6-83da-f92dc3c4c814",
@@ -33,8 +36,9 @@
       "especie": "Perro",
       "raza": "Pomeranian",
       "edad": 100,
-      "dueno": "Tulio Riaño",
-      "telefono": "3112121321"
+      "responsableIds": [
+        "0d0d404d-805e-4746-a48d-e21130d4e78a"
+      ]
     }
   ],
   "visitas": [
@@ -69,6 +73,28 @@
       "motivo": "Control de dientes",
       "diagnostico": "Crecimiento excesivo de incisivos",
       "tratamiento": "Limado dental; más heno en la dieta"
+    }
+  ],
+  "responsables": [
+    {
+      "id": "53c9bcdc-73e6-4475-b6a9-f765d4be859e",
+      "nombre": "Carlos Gómez",
+      "telefono": "3001234567"
+    },
+    {
+      "id": "802a34a5-f546-4942-b1ac-9dc990b57a50",
+      "nombre": "Laura Martínez",
+      "telefono": "3109876543"
+    },
+    {
+      "id": "177240ab-2ed6-4b9c-8ed9-60bb4a8fd592",
+      "nombre": "Andrés Rojas",
+      "telefono": "3205551234"
+    },
+    {
+      "id": "0d0d404d-805e-4746-a48d-e21130d4e78a",
+      "nombre": "Tulio Riaño",
+      "telefono": "3112121321"
     }
   ]
 }

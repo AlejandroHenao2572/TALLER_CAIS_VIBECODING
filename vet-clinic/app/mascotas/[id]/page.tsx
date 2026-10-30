@@ -21,9 +21,14 @@ export default async function DetalleMascota({ params }: { params: Promise<{ id:
           <div><dt className="text-slate-500">Especie</dt><dd className="font-medium">{mascota.especie}</dd></div>
           <div><dt className="text-slate-500">Raza</dt><dd className="font-medium">{mascota.raza}</dd></div>
           <div><dt className="text-slate-500">Edad</dt><dd className="font-medium">{mascota.edad} {mascota.edad === 1 ? "año" : "años"}</dd></div>
-          <div><dt className="text-slate-500">Dueño</dt><dd className="font-medium">{mascota.dueno}</dd></div>
-          <div><dt className="text-slate-500">Teléfono</dt><dd className="font-medium">{mascota.telefono}</dd></div>
         </dl>
+        <h2 className="mt-5 font-semibold">Responsables ({mascota.responsables.length})</h2>
+        <ul className="mt-2 space-y-2">
+          {mascota.responsables.map((r) => <li key={r.id}>
+            <Link href={`/responsables/${r.id}`} className="font-medium text-teal-700 hover:underline">{r.nombre}</Link>
+            <span className="text-sm text-slate-600"> · {r.telefono}</span>
+          </li>)}
+        </ul>
       </section>
 
       <section className="space-y-4">

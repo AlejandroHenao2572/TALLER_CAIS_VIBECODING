@@ -21,7 +21,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
         <input
           name="q"
           defaultValue={q}
-          placeholder="Buscar por nombre de mascota o dueño..."
+          placeholder="Buscar por nombre de mascota o responsable..."
           className="flex-1 rounded border border-slate-300 bg-white px-3 py-2 focus:border-teal-600 focus:outline-none"
         />
         <button className="rounded bg-slate-700 px-4 py-2 text-white hover:bg-slate-800">Buscar</button>
