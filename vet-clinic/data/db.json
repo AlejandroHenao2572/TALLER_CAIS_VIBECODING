@@ -39,6 +39,16 @@
       "responsableIds": [
         "0d0d404d-805e-4746-a48d-e21130d4e78a"
       ]
+    },
+    {
+      "id": "e89c37c6-434c-4fba-85a8-2b45f18ebbf9",
+      "nombre": "Lupe",
+      "especie": "Gallina",
+      "raza": "Pincher",
+      "edad": 1,
+      "responsableIds": [
+        "afb9a855-888f-49a8-bb5f-e3d9ba93dca7"
+      ]
     }
   ],
   "visitas": [
@@ -73,6 +83,14 @@
       "motivo": "Control de dientes",
       "diagnostico": "Crecimiento excesivo de incisivos",
       "tratamiento": "Limado dental; más heno en la dieta"
+    },
+    {
+      "id": "85922c92-922a-45d4-b3e6-fd189ba487f4",
+      "mascotaId": "e89c37c6-434c-4fba-85a8-2b45f18ebbf9",
+      "fecha": "2026-10-29",
+      "motivo": "lele pancha",
+      "diagnostico": "xd",
+      "tratamiento": "acetaminofen"
     }
   ],
   "responsables": [
@@ -95,6 +113,11 @@
       "id": "0d0d404d-805e-4746-a48d-e21130d4e78a",
       "nombre": "Tulio Riaño",
       "telefono": "3112121321"
+    },
+    {
+      "id": "afb9a855-888f-49a8-bb5f-e3d9ba93dca7",
+      "nombre": "David Patacon",
+      "telefono": "3226354883"
     }
   ]
 }
