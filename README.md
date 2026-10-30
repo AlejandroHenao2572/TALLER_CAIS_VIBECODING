@@ -2,6 +2,12 @@
 
 App web con Next.js App Router, TypeScript y Tailwind para registrar mascotas, sus responsables y sus visitas. Conserva la persistencia JSON y las dependencias del reto 1.
 
+## Integrantes del equipo
+- David Alejandro Patacon
+- Tulio Riaño
+- Daniel Patiño
+- Sebastian Puentes
+
 ## Cómo correrla
 
 ```bash
@@ -108,8 +114,3 @@ Comprobación manual:
 
 En entornos restringidos, la compilación necesita permisos para subprocesos y puertos locales. Si Turbopack falla por el entorno, se puede comprobar la compilación con `npm run build -- --webpack`, sin cambiar dependencias.
 
-## Cierre del taller
-
-- [ ] Registrar los minutos reales del reto en `BITACORA.md`.
-- [ ] Revisar/guardar la entrega y crear el tag `reto2` sobre su commit.
-- [ ] Realizar el check en Miro.
