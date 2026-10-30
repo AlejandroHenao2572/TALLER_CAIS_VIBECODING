@@ -1,0 +1,74 @@
+{
+  "mascotas": [
+    {
+      "id": "m1",
+      "nombre": "Firulais",
+      "especie": "Perro",
+      "raza": "Labrador",
+      "edad": 5,
+      "dueno": "Carlos Gómez",
+      "telefono": "3001234567"
+    },
+    {
+      "id": "m2",
+      "nombre": "Michi",
+      "especie": "Gato",
+      "raza": "Siamés",
+      "edad": 3,
+      "dueno": "Laura Martínez",
+      "telefono": "3109876543"
+    },
+    {
+      "id": "m3",
+      "nombre": "Copito",
+      "especie": "Conejo",
+      "raza": "Belier",
+      "edad": 2,
+      "dueno": "Andrés Rojas",
+      "telefono": "3205551234"
+    },
+    {
+      "id": "c20bc4b5-8792-40d6-83da-f92dc3c4c814",
+      "nombre": "Volcan",
+      "especie": "Perro",
+      "raza": "Pomeranian",
+      "edad": 100,
+      "dueno": "Tulio Riaño",
+      "telefono": "3112121321"
+    }
+  ],
+  "visitas": [
+    {
+      "id": "v1",
+      "mascotaId": "m1",
+      "fecha": "2026-08-12",
+      "motivo": "Vacunación anual",
+      "diagnostico": "Paciente sano",
+      "tratamiento": "Vacuna polivalente y antirrábica"
+    },
+    {
+      "id": "v2",
+      "mascotaId": "m1",
+      "fecha": "2026-10-02",
+      "motivo": "Cojera en pata trasera",
+      "diagnostico": "Esguince leve",
+      "tratamiento": "Antiinflamatorio por 5 días y reposo"
+    },
+    {
+      "id": "v3",
+      "mascotaId": "m2",
+      "fecha": "2026-09-20",
+      "motivo": "Vómito frecuente",
+      "diagnostico": "Bolas de pelo",
+      "tratamiento": "Pasta de malta y cepillado diario"
+    },
+    {
+      "id": "v4",
+      "mascotaId": "m3",
+      "fecha": "2026-10-15",
+      "motivo": "Control de dientes",
+      "diagnostico": "Crecimiento excesivo de incisivos",
+      "tratamiento": "Limado dental; más heno en la dieta"
+    }
+  ]
+}
